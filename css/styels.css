@@ -148,6 +148,42 @@ p{
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* serch-bar */
+.search-bar{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    height: 550px;
+    margin-top: 120px;
+    color: white;
+    display: grid;
+    align-items: center;
+}
+.search-bar h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: -250px;
+}
+.search-bar-child{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.search-bar-child button{
+    max-width: 180px;
+}
+.search-bar-child > input{
+    max-width: 640px;
+    height: 45px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    border: none;
+
+}
+
 /* footer part styels */
 
 

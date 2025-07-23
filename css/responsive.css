@@ -38,11 +38,27 @@
     /* flower store */
     .flower-store{
         flex-direction: column;
-        margin-top: -30px;
     }
-        .flower-store-right h2{
-            font-size: 2rem;
-        }
+    .flower-store-right h2{
+        font-size: 2rem;
+    }
+
+    /* .search-bar */
+    .search-bar{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .search-bar h2 {
+        font-size: 2.5rem;
+    }
+    .search-bar-child input{
+        width: 320px;
+        height: 35px;
+    }
+    .search-bar-child button {
+        width: 100px;
+        height: 40px;
+    }
 }
 
 /* footer part */
@@ -52,5 +68,11 @@
     /* .trusted-bradge */
     .trusted-bradge{
         display: none;
+    }
+
+
+
+    body{
+        overflow-x: hidden;
     }
 }
