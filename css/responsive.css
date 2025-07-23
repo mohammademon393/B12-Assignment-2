@@ -1,9 +1,18 @@
-/* navber responsive */
+/* header part responsive */
 @media screen and (max-width:576px) {
+    /* navber */
     .ul-content{
         display: none;
     }
     .nav-left img{
         width: 75%;
+    }
+    /* banner */
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-left h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
     }
 }
