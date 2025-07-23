@@ -1,0 +1,9 @@
+/* navber responsive */
+@media screen and (max-width:576px) {
+    .ul-content{
+        display: none;
+    }
+    .nav-left img{
+        width: 75%;
+    }
+}
