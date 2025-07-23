@@ -27,6 +27,15 @@ p{
     font-size: 20;
     font-weight: 400;
 }
+.btn{
+    width: 270px;
+    height: 50px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
 /* header part styels */
 
 /* navber styels */
@@ -82,7 +91,77 @@ p{
     width: 100%;
 }
 /* main part styels */
+/* our plante part */
+.plant{
+    text-align: center;
+    margin-top: 100px;
+}
+.plant h2{
+    font-size: 3rem;
+    margin-bottom: -10px;
+}
+/* card design */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+}
+.card{
+    max-width: 270px;
+    height: 480px;
+}
+.card h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+.card h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+/* < !-- Flower & Plants Lover --> */
+.flower-store{
+    margin-top: 120px;
+    gap: 60px;
+}
+.flower-store-left{
+    flex: 1;
+}
+.flower-store-left img{
+    width: 100%;
+    height: 550px;
+}
+.flower-store-right{
+    flex: 1;
+}
+.flower-store-right h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.flower-store-right >ul >li{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 /* footer part styels */
 
+
+
+
 /* chellange part styels */
+
+
+/* trusted bradge */
+.trusted-bradge {
+    position: absolute;
+    left: 530px;
+    top: 118rem;
+}
+.trusted-bradge img{
+    width: 13rem;
+}
