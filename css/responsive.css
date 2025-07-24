@@ -58,16 +58,14 @@
         overflow-x: hidden;
     }
     .search-bar h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
-    .search-bar-child input{
-        width: 320px;
-        height: 35px;
+    .input{
+        max-width: 220px;
     }
-    .search-bar-child button {
-        width: 100px;
-        height: 40px;
-    }
+        .search-bar-child button{
+            max-width: 100px;
+        }
 }
 
 /* footer part */
@@ -120,8 +118,6 @@
     .challenge h2{
         font-size: 2rem;
     }
-    }
-    
     .challenge-content-right>span>h2{
         font-size: 2rem;
     }
