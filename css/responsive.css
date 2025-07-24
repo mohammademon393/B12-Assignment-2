@@ -33,7 +33,9 @@
     .btn{
         width: 100%;
     }
-
+    /* .plant{
+        margin-bottom: 50px;
+    } */
 
     /* flower store */
     .flower-store{
@@ -62,6 +64,23 @@
 }
 
 /* footer part */
+@media screen and (max-width: 576px) {
+    .footer-container{
+        flex-direction: column;
+        height: fit-content;
+        padding-bottom: 20px;
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 15px;
+        padding-top: 10px;
+        gap: 20px;
+        
+    }
+    
+        .footer-link ul{
+            padding-left: 0;
+        }
+}
 
 /* Challange part */
 @media screen and (max-width: 576px) {
