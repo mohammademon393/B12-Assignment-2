@@ -246,14 +246,27 @@ p{
     height: fit-content;
 }
 .challenge-content-left{
-    width: 33%;
+    max-width: 33%;
     text-align: center;
     display: grid;
     gap: 20px;
 
 }
 
-.img-1, .img-2{
+.img-1{
+    background-image: url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    height: 206px;
+    color: white;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img-2{
     background-image: url(../assets/deal-bloom.png);
     background-repeat: no-repeat;
     height: 206px;

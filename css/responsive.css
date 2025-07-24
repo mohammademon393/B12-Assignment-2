@@ -19,6 +19,7 @@
 
 /* main part respnsive */
 @media screen and (max-width: 576px) {
+    /* plant nad card part */
     .card-container{
         grid-template-columns: repeat(2, 1fr);
         margin-left: 5px;
@@ -33,16 +34,22 @@
     .btn{
         width: 100%;
     }
-    /* .plant{
-        margin-bottom: 50px;
-    } */
-
+    /* plant section */
+    .plant h2{
+        font-size: 2rem;
+    }
+    .plant p{
+        font-size: 1rem;
+    }
     /* flower store */
     .flower-store{
         flex-direction: column;
     }
     .flower-store-right h2{
         font-size: 2rem;
+    }
+    .flower-store-right>ul>li{
+        font-size: 1rem;
     }
 
     /* .search-bar */
@@ -76,6 +83,12 @@
         gap: 20px;
         
     }
+    .footer-logo p{
+        font-size: 1rem;
+    }
+    .footer-link ul>li>a {
+        font-size: 1rem;
+    }
     
         .footer-link ul{
             padding-left: 0;
@@ -89,9 +102,34 @@
         display: none;
     }
 
+    .challenge-content{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    
+    .img-1 ,.img-2{
+        width: 100%;
+    }
 
+    .challenge-content-right, 
+    .challenge-content-left{
+        max-width: 100%;
+        width: 90%
+    }
+
+    .challenge h2{
+        font-size: 2rem;
+    }
+    }
+    
+    .challenge-content-right>span>h2{
+        font-size: 2rem;
+    }
 
     body{
         overflow-x: hidden;
+    }
+    p{
+        font-size: 16px;
     }
 }
