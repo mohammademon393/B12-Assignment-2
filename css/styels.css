@@ -1,4 +1,6 @@
 /* google-font  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 .noto-serif-font {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
@@ -61,7 +63,7 @@ p{
     color: rgba(0, 0, 0, 0.5);
 }
 #home{
-    color: black;
+    color: #E95A08;
     font-weight: 700;
 }
 .shopping{
